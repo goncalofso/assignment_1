@@ -1,0 +1,121 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+
+
+Testa as funcoes.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}funcoes.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_a0b63683b34a0a970ba1b32240d8b8421}{My\+S\+A\+G\+Freq}} (int array\mbox{[}$\,$\mbox{]}, int number, int size)
+\begin{DoxyCompactList}\small\item\em Funcao My\+S\+A\+G\+Freq, Returns the number of times that a given value, passed as argument, exists in the stream window. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a1c6f192b6a97d911d24a3329ef352b46}{My\+S\+A\+G\+Avg}} (int array\mbox{[}$\,$\mbox{]}, int size)
+\begin{DoxyCompactList}\small\item\em Funcao My\+S\+A\+G\+Avg, Returns the average of the values of the stream window (rounded to an int) \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Funcao main testa as funcoes My\+S\+A\+G\+Freq, My\+S\+A\+G\+Avg. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Testa as funcoes. 
+
+\begin{DoxyAuthor}{Author}
+Goncalo Moniz 
+
+entries 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22-\/3-\/21 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]Sem bugs \end{DoxyRefDesc}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funcao main testa as funcoes My\+S\+A\+G\+Freq, My\+S\+A\+G\+Avg. 
+
+\begin{DoxyAuthor}{Author}
+Goncalo 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em Describe} & Sem argumentos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 
+\end{DoxyReturn}
+\begin{DoxyDate}{Date}
+22-\/3-\/21 
+\end{DoxyDate}
+\mbox{\Hypertarget{main_8c_a1c6f192b6a97d911d24a3329ef352b46}\label{main_8c_a1c6f192b6a97d911d24a3329ef352b46}} 
+\index{main.c@{main.c}!MySAGAvg@{MySAGAvg}}
+\index{MySAGAvg@{MySAGAvg}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MySAGAvg()}{MySAGAvg()}}
+{\footnotesize\ttfamily int My\+S\+A\+G\+Avg (\begin{DoxyParamCaption}\item[{int}]{array\mbox{[}$\,$\mbox{]},  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Funcao My\+S\+A\+G\+Avg, Returns the average of the values of the stream window (rounded to an int) 
+
+\begin{DoxyAuthor}{Author}
+Goncalo 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Describe} & Argumentos provenientes da funcao main \\
+\hline
+\mbox{\texttt{ in}}  & {\em array} & Array de valores criado na funcao main para teste da funcao \\
+\hline
+\mbox{\texttt{ in}}  & {\em size} & Tamanho do array\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Media dos valores do array 
+\end{DoxyReturn}
+\begin{DoxyDate}{Date}
+22-\/3-\/21 
+\end{DoxyDate}
+\mbox{\Hypertarget{main_8c_a0b63683b34a0a970ba1b32240d8b8421}\label{main_8c_a0b63683b34a0a970ba1b32240d8b8421}} 
+\index{main.c@{main.c}!MySAGFreq@{MySAGFreq}}
+\index{MySAGFreq@{MySAGFreq}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{MySAGFreq()}{MySAGFreq()}}
+{\footnotesize\ttfamily int My\+S\+A\+G\+Freq (\begin{DoxyParamCaption}\item[{int}]{array\mbox{[}$\,$\mbox{]},  }\item[{int}]{number,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Funcao My\+S\+A\+G\+Freq, Returns the number of times that a given value, passed as argument, exists in the stream window. 
+
+\begin{DoxyAuthor}{Author}
+Goncalo 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Describe} & Argumentos provenientes da funcao main \\
+\hline
+\mbox{\texttt{ in}}  & {\em array} & Array de valores criado na funcao main para teste da funcao \\
+\hline
+\mbox{\texttt{ in}}  & {\em number} & Valor \\
+\hline
+\mbox{\texttt{ in}}  & {\em size} & Tamanho do array\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Frequencia que o valor introduzido (number) aparece no array 
+\end{DoxyReturn}
+\begin{DoxyDate}{Date}
+22-\/3-\/21 
+\end{DoxyDate}
